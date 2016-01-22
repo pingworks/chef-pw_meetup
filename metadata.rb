@@ -7,4 +7,3 @@ long_description 'Installs and configures meetup'
 version          '0.1.0'
 
 depends 'pw_base'
-
