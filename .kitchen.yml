@@ -14,5 +14,7 @@ platforms:
 suites:
   - name: default
     run_list:
-    - recipe[pw_meetup::default]
+      - recipe[pw_base::default]
+      - recipe[pw_base::gemrc]
+      - recipe[pw_meetup::default]
     attributes:
