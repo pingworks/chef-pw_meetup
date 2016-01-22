@@ -4,6 +4,6 @@ maintainer_email 'info@pingworks.de'
 license          'Apache 2.0'
 description      'Installs and configures meetup'
 long_description 'Installs and configures meetup'
-version          '0.1.1'
+version          '0.1.2'
 
 depends 'pw_base'
