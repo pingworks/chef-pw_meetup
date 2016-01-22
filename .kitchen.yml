@@ -16,5 +16,10 @@ suites:
     run_list:
       - recipe[pw_base::hosts]
       - recipe[pw_base::resolv_conf]
+      - recipe[pw_base::gemrc]
       - recipe[pw_meetup::default]
     attributes:
+      pw_base:
+        dns: '10.33.0.10'
+        gemrc-files:
+          - '/opt/chef/embedded/etc/gemrc'
